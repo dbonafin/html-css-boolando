@@ -5,8 +5,13 @@
 }
 
 /* debug */
-body {
+
+.main-container {
     background-color: lightblue;
+}
+
+.col-card {
+    border: 1px solid blueviolet;
 }
 
 /* common */
@@ -69,4 +74,47 @@ header {
 .account-area {
     width: calc(100%/3);
     text-align: right;
+}
+
+/* main */
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.col-card {
+    padding: 20px 20px;
+    width: calc(100% / 3);
+}
+
+.product {
+    position: relative;
+}
+
+.discount-area {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.discount-area span {
+    color: white;
+    font-size: 12px;
+}
+.red-tag {
+    background-color: red;
+}
+
+.green-tag {
+    background-color: green;
+}
+
+.heart {
+    padding: 0 4px;
+    background: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
