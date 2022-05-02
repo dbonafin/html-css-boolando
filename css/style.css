@@ -137,6 +137,23 @@ header {
     font-style: italic;
 }
 
+.alternative-img {
+    display: none;
+}
+
+.product:hover .original-img {
+    display: none;
+}
+
+.product:hover .alternative-img {
+    display: block;
+}
+
+.heart:hover {
+    color: red;
+}
+
+
 /* footer */
 
 footer {
@@ -161,5 +178,7 @@ footer {
 }
 
 .social-area {
+    font-size: 12px;
     text-align: center;
 }
+
