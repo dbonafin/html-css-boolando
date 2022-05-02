@@ -32,7 +32,7 @@ ul {
 li a, a {
     text-decoration: none;
     color: white;
-    padding: 0 3px;
+    padding-right: 3px;
 }
 
 
@@ -82,7 +82,7 @@ header {
 /* product card details */
 
 .col-card {
-    padding: 30px 20px;
+    padding: 20px 10px;
     width: calc(100% / 3);
     flex-wrap: wrap;
 }
@@ -135,4 +135,31 @@ header {
     color: black;
     text-decoration: line-through;
     font-style: italic;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.footer-container {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-container h2 {
+    font-size: 14px;
+}
+
+.faq-area li {
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.social-area {
+    text-align: center;
 }
