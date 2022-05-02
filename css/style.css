@@ -9,3 +9,64 @@ body {
     background-color: lightblue;
 }
 
+/* common */
+
+* {
+    font-family: 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a, a {
+    text-decoration: none;
+    color: white;
+    padding: 0 3px;
+}
+
+
+/* header */
+
+header {
+    font-size: 12px;
+    background-color: #ff6900;
+}
+
+.header-container {
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.menu {
+    width: calc(100%/3);
+}
+
+.navigation-menu {
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;
+}
+
+.account-area {
+    width: calc(100%/3);
+    text-align: right;
+}
