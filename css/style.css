@@ -11,7 +11,7 @@
 }
 
 .col-card {
-    border: 1px solid blueviolet;
+    border: 1px solid green;
 }
 
 /* common */
@@ -85,7 +85,7 @@ header {
 }
 
 .col-card {
-    padding: 20px 20px;
+    padding: 30px 20px;
     width: calc(100% / 3);
 }
 
@@ -101,7 +101,7 @@ header {
 
 .discount-area span {
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
 .red-tag {
     background-color: red;
