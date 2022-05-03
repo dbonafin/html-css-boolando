@@ -41,6 +41,9 @@ li a, a {
 header {
     font-size: 12px;
     background-color: #ff6900;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
 }
 
 .header-container {
@@ -76,6 +79,7 @@ header {
     width: 60%;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding-top: 60px;
 }
 
 
@@ -134,7 +138,6 @@ header {
 .old-price {
     color: black;
     text-decoration: line-through;
-    font-style: italic;
 }
 
 .alternative-img {
@@ -146,11 +149,12 @@ header {
 }
 
 .product:hover .alternative-img {
-    display: block;
+    display: inline-block;
 }
 
 .heart:hover {
     color: red;
+    cursor: pointer;
 }
 
 
